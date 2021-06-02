@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+}
+.navbar-brand:hover{
+    color: red;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #000;
+}
+.fa-hamburger{
+    color: red;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius:60px;
+    outline: none;
+    border: 2px solid red;  
+    margin-right: -35px; 
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 60px;
+    font-weight: 700;
+}
+/*=================================*/
+.main{
+   height: 100vh;
+   background: url(../img/1.jpg) no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Pattaya', sans-serif;
+    color: #fff;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 60px;
+    font-weight: 700;
+    transition: all 0.8s ease-in-out;
+    text-transform: uppercase;
+}
+.btn1:hover{
+    background-color: #fff;
+    color: red;
+    width: 40%;
+    border: 2px solid red ;
+    letter-spacing: 6px;
+}
+
+/*=========================*/
+.new img{
+    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    max-height:150px;
+}
+.new h6{
+    font-weight: bold;
+    color: red;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Pattaya', sans-serif;
+}
+/*===========================*/
+.product img{
+    width: 80%;
+    height: 200px;
+}
+.product .btn1{
+    width: 40%;
+    text-transform: capitalize;
+}
+.product .btn1:hover{
+    width: 50%;
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.753);
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(209, 202, 202, 0.753);
+    transition: 0.5s ease-in-out;
+}
+
+/*==========================*/
+.about img{
+    width: 100%;
+}
+/*==========================*/
+.shop img{
+    width: 80%;
+    height: 200px;
+}
+/* ====================== */
+
+.apple{
+    height: 80vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.274),rgba(0, 0, 0)), url(../img/9.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    font-family: 'Pattaya', sans-serif;
+}
+/* =========================== */
+
+.contactUs h6{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contactUs p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+textarea{
+    resize: none;
+}
+
+/* ========================== */
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid #fff;
+    outline: none;
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600; 
+}
+.footer input::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: #fff;
+    margin-left: -10px;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+.footer p{
+    margin: 0;
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.fab:hover{
+    color: red;
+}
+.footer p span{
+    background-color: red !important;
+}
